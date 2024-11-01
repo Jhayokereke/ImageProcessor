@@ -1,0 +1,9 @@
+@RtspListener_HostAddress = https://localhost:7001
+
+POST {{RtspListener_HostAddress}}/fetch
+Accept: application/json
+{
+  "url":"hahha"
+}
+
+###
